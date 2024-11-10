@@ -9,7 +9,15 @@ public class PrefabGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        float posVar = 0.0f;
+
+        for(int i = 0; i<20; i = i + 2)
+        {
+            //Convert integer to float for position arithemtic
+            posVar = 9f-(float)i;
+
+            Instantiate<GameObject>(prefab, new Vector3(posVar, 2f, -9f), Quaternion.identity);
+        }
     }
 
     // Update is called once per frame
