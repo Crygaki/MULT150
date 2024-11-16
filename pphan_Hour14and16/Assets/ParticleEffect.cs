@@ -16,6 +16,6 @@ HOUR 16 MODIFY 5 OR MORE DIFFERENT PARAMETERS:
 
 5. Under the Size over Lifetime module of the particle system, all axis change with the same rate.
 
-6. Under the Lights module of the particle system, a customized Spot Light was added.
+6. Under the Lights module of the particle system, a customized Point Light was added.
 
  */
